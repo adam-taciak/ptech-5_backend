@@ -6,6 +6,7 @@ app = Flask(__name__)
 
 CORS(app)
 
+
 @app.route('/todos', methods=['GET', 'POST'])
 def get_todos():
     db = connect()
