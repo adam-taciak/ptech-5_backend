@@ -9,6 +9,7 @@ DB_NAME = os.getenv('DB_NAME', 'app')
 DB_PORT = os.getenv('DB_PORT', 3306)
 
 
+
 def connect():
     db = mysql.connector.connect(
         host=DB_HOST,
